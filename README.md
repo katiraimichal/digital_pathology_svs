@@ -10,4 +10,4 @@ To run the main application, execute:
 python main.py
 
 ## Summary
-For relevant information about the project open summary.pdf file
+For relevant information about the project open Summary.pdf file
