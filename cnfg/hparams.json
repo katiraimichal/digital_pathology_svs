@@ -1,0 +1,24 @@
+{
+  "train_name": "SVS",
+  "dirs": {
+    "train_csv_dir": "csv_files/train.csv",
+    "val_csv_dir": "csv_files/val.csv",
+    "test_csv_dir": "csv_files/test.csv",
+    "files_dir": "svs_data",
+    "save_model_path": "test_evaluation_results",
+    "checkpoints_dir": "checkpoints"
+  },
+  "training": {
+    "learning_rate": 0.001,
+    "num_epochs": 10
+  },
+  "dataset": {
+    "batch_size": 4,
+    "preprocessing": [
+      "transforms.ToTensor()",
+      "transforms.Resize((256, 256))",
+      "transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])"
+    ],
+    "transform": null
+  }
+}
