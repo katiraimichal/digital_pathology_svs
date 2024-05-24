@@ -8,3 +8,6 @@ pip install -r requirements.txt
 ## Usage
 To run the main application, execute:
 python main.py
+
+## Summary
+For relevant information about the project open summary.pdf file
